@@ -15,20 +15,24 @@ Para executar os testes, é necessário ter instalado:
 - Git;
 - Google Chrome.
 
-Antes de executar os testes automatizados, é necessário realizar o clone da aplicação Hub de Leitura, disponibilizada pela EBAC, e executá-la localmente.
+Antes de executar os testes automatizados, é necessário realizar o clone da aplicação **Hub de Leitura**, disponibilizada pela EBAC, e executá-la localmente.
 
-1. Clone o repositório da aplicação
+### 1. Clone o repositório da aplicação
+
+```bash
 git clone https://github.com/EBAC-QE/hub-de-leitura-integrado.git
+```
 
 Ou acesse diretamente o repositório:
 
-Hub de Leitura - EBAC: https://github.com/EBAC-QE/hub-de-leitura-integrado
+**Hub de Leitura - EBAC:** [https://github.com/EBAC-QE/hub-de-leitura-integrado](https://github.com/EBAC-QE/hub-de-leitura-integrado?utm_source=chatgpt.com)
 
-2. Execute a aplicação
+### 2. Execute a aplicação
 
 Siga as instruções descritas no README do projeto da EBAC para instalar as dependências e iniciar a aplicação.
 
-Importante: os testes deste repositório foram configurados para acessar a aplicação em http://localhost:3000. Portanto, o Hub de Leitura deve estar em execução antes de iniciar os testes automatizados.
+> **Importante:** os testes deste repositório foram configurados para acessar a aplicação em `http://localhost:3000`. Portanto, o Hub de Leitura deve estar em execução antes de iniciar os testes automatizados.
+
 ---
 
 ## 🚀 Tecnologias e recursos utilizados
