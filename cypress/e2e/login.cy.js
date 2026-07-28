@@ -1,4 +1,5 @@
 /// <reference types="cypress" />
+import user from '../fixtures/usuario.json'
 
 describe('Funcionalidade: Login', () => {
 
@@ -17,8 +18,12 @@ describe('Funcionalidade: Login', () => {
     cy.login('usuario@teste.com', 'user123');
   });
 
-  it.only('Deve fazer login com sucesso com conta Admin - Usando comando customizado', () => {
+  it('Deve fazer login com sucesso com conta Admin - Usando comando customizado', () => {
     cy.login('admin@biblioteca.com', 'admin123');
+  });
+
+  it.only('Deve fazer login com sucesso - Usando importação da massa de dados', () => {
+    cy.login(user.email, user.senha);
   });
 
 });
