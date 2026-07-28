@@ -12,5 +12,15 @@
     {
         "livro": "O Hobbit",
         "categoria": "Fantasia"
+    },
+
+    {
+        "livro": "A Revolução dos Bichos",
+        "categoria": "Ficção"
+    },
+
+    {
+        "livro": "O Senhor dos Anéis: A Sociedade do Anel",
+        "categoria": "Fantasia"
     }
 ]
