@@ -7,6 +7,10 @@ describe('Funcionalidade cadastro no Hub de Leitura', () => {
         cadastroPage.visitarPaginaCadastro();
     });
 
+    afterEach(() => {
+        cy.screenshot();
+    });
+
     it('Deve preencher o formulário de cadastro com sucesso, usando função JavaScript', () => {
         let email = `tiago${Date.now()}@teste.com`; // Gera um email único para cada execução do teste
 

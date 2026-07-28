@@ -4,7 +4,8 @@
   "description": "Projeto proposto pela EBAC no curso de Engenharia de Qualidade de Software, com o objetivo de desenvolver testes automatizados utilizando a ferramenta Cypress.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "npx cypress run --browser chrome",
+    "cy:report": "npx cypress run --browser chrome --record --key 55e44a66-78f7-4afd-9627-09b1223f7909"
   },
   "keywords": [],
   "author": "",
