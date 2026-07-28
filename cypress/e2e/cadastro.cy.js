@@ -34,4 +34,18 @@ describe('Funcionalidade cadastro no Hub de Leitura', () => {
         cy.url().should('include', 'dashboard.html');
         cy.get('#user-name').should('contain', nome); // Verifica se o nome do usuário está correto na página de dashboard
     });
+
+    it('Deve preencher o formulário de cadastro com sucesso, usando comando customizado', () => {
+        let nome = faker.person.fullName(); // Gera um nome completo aleatório usando Faker
+        let email = `tiago${Date.now()}@teste.com`; // Gera um email único para cada execução do teste
+        cy.preencherCadastro(
+            nome,
+            email,
+            '19997092831',
+            'Teste@123',
+            'Teste@123'
+        );
+        cy.url().should('include', 'dashboard.html');
+        cy.get('#user-name').should('contain', nome); // Verifica se o nome do usuário está correto na página de dashboard
+    });
 });
