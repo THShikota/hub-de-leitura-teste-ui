@@ -26,6 +26,7 @@ Siga as instruções descritas no README do projeto da EBAC para instalar as dep
 
 > **Importante:** os testes deste repositório foram configurados para acessar a aplicação em `http://localhost:3000`. Portanto, o Hub de Leitura deve estar em execução antes de iniciar os testes automatizados.
 
+---
 
 ## 🚀 Tecnologias utilizadas
 
