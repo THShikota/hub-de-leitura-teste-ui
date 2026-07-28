@@ -1,0 +1,15 @@
+{
+  "name": "hub-de-leitura-teste-ui",
+  "version": "1.0.0",
+  "description": "Projeto proposto pela EBAC no curso de Engenharia de Qualidade de Software, com o objetivo de desenvolver testes automatizados utilizando a ferramenta Cypress.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^15.19.0"
+  }
+}
